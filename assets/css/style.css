@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 20px;
+}
+
+.container{
+    width: 1100px;
+    height: 1520px;
+    margin: 5px auto;
+    padding-top: 50px;
+    padding-left: 35px;
+    box-shadow: 0 0 10px gray;
+}
+
+/* navBar */
+
+.nav{
+    display: flex;
+}
+
+.nav__icon img{
+    width: 60px;
+    height: 60px;
+
+}
+
+.nav__title{
+    padding-top: 25px;
+}
+
+.nav__btn{
+    padding: 25px 0 0 100px;
+}
+.nav__btn a{
+    text-decoration: none;
+    color: gray;
+    padding-left: 40px;
+}
+
+.nav__call{
+    padding: 15px 0 0 100px;
+}
+
+.nav__call button{
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: 1px solid #A439E7;
+    background: #fff;
+    color: #5A098B;
+}
+
+/* header */
+
+.header{
+    height: 550px;
+    text-align: center;
+    background-image: url(../img/6308.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -50px;
+}
+
+.header__title{
+    padding: 165px 0 55px 0;
+    font-size: 30px;
+    z-index: 2;
+}
+
+.header__content{
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 55px;
+    z-index: 2;
+}
+
+.header__btn button{
+    padding: 25px 55px;
+    border-radius: 35px;
+    border: none;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    z-index: 2;
+}
+
+/* section */
+
+.first{
+    display: flex;
+}
+
+.section__title{
+    text-align: center;
+    padding: 90px 0;
+}
+
+.section__content{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 70px;
+}
+
+.section__content img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.second{
+    width: 1035px;
+    height: 390px;
+    text-align: center;
+    margin-top: 100px;
+    background: #F9EEFF;
+    padding-top: 50px;
+}
+
+.section__img{
+    width: 80px;
+    height: 80px;
+    margin: 0 0 50px 470px;
+    border: 1px solid #C2A3D6;
+    background: url(../img/2021-05-23\ 11.56.55\ PM.jpg) no-repeat;
+    background-size: 60px;
+    background-position-x: 10px;
+    background-position-y: 9px;
+    border-radius: 50%;
+}
+
+.section__title1{
+    margin-bottom: 20px;
+}
+
+.section__name{
+    margin-bottom: 50px;
+}
+
+.section__text{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
